@@ -1,0 +1,19 @@
+Task.input_id = 'hact'
+Task.env_id = 'srrc_dual_frankas'
+Task.model_id = 'hact_vq'
+
+Optimizer.name = 'adamw'
+Optimizer.lr = 1e-5
+Optimizer.weight_decay = 1e-4
+
+SingleGpuTrainer.train_batch_size = 4
+SingleGpuTrainer.val_batch_size = 4
+SingleGpuTrainer.train_epoch = 2500
+SingleGpuTrainer.val_epoch_interval = 10
+SingleGpuTrainer.seed = 42
+
+MultiGpuTrainer.train_batch_size = 4
+MultiGpuTrainer.val_batch_size = 4
+MultiGpuTrainer.train_epoch = 2500
+MultiGpuTrainer.val_epoch_interval = 10
+MultiGpuTrainer.seed = 42

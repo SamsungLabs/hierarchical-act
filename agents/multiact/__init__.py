@@ -1,0 +1,4 @@
+from .registry import make
+
+from .mujoco_bimanipulation import MujocoBimanipulationMultiActAgent
+from .srrc_dual_frankas import SrrcDualFrankasMultiActAgent

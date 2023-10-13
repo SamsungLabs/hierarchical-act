@@ -1,0 +1,13 @@
+MultiActModel.cnn_backbone_type='resnet18'
+MultiActModel.cnn_backbone_lr=1e-5
+MultiActModel.state_dim=14
+MultiActModel.action_dim=14
+MultiActModel.context_dim=512
+MultiActModel.latent_dim=32
+MultiActModel.hidden_dim=512
+MultiActModel.dim_feedforward=3200
+MultiActModel.chunk_size=100
+
+MujocoBimanipulationMultiActAgent.query_frequency = 100
+MujocoBimanipulationMultiActAgent.temporal_agg_temp = 0.01
+MujocoBimanipulationMultiActAgent.max_timesteps = 400

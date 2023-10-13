@@ -1,0 +1,13 @@
+Task.input_id = 'hact'
+Task.env_id = 'mujoco_bimanipulation'
+Task.model_id = 'hact_vq'
+
+Optimizer.name = 'adamw'
+Optimizer.lr = 1e-5
+Optimizer.weight_decay = 1e-4
+
+Trainer.train_batch_size = 4
+Trainer.val_batch_size = 4
+Trainer.train_epoch = 2500
+Trainer.val_epoch_interval = 10
+Trainer.seed = 42

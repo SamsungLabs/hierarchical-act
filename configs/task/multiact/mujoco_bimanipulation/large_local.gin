@@ -1,0 +1,13 @@
+Task.input_id = 'domain_act'
+Task.env_id = 'mujoco_bimanipulation'
+Task.model_id = 'multiact'
+
+Optimizer.name = 'adamw'
+Optimizer.lr = 1e-5
+Optimizer.weight_decay = 1e-4
+
+Trainer.train_batch_size = 8
+Trainer.val_batch_size = 1
+Trainer.train_epoch = 1992
+Trainer.val_epoch_interval = 3
+Trainer.seed = 42

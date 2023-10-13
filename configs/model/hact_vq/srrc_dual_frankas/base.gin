@@ -1,0 +1,33 @@
+HactVqModel.cnn_backbone_type='resnet18'
+HactVqModel.state_dim=16
+HactVqModel.action_dim=16
+HactVqModel.context_dim=512
+HactVqModel.hidden_dim=512
+HactVqModel.input_image_num=2
+HactVqModel.image_encoder_head_num=8
+HactVqModel.image_encoder_layer_num=4
+HactVqModel.image_encoder_feedforward_dim=2048
+HactVqModel.subgoal_encoder_head_num=8
+HactVqModel.subgoal_encoder_layer_num=4
+HactVqModel.subgoal_encoder_feedforward_dim=2048
+HactVqModel.actions_encoder_head_num=8
+HactVqModel.actions_encoder_layer_num=4
+HactVqModel.actions_encoder_feedforward_dim=2048
+HactVqModel.style_encoder_head_num=8
+HactVqModel.style_encoder_layer_num=4
+HactVqModel.style_encoder_feedforward_dim=2048
+HactVqModel.actions_decoder_head_num=8
+HactVqModel.actions_decoder_layer_num=7
+HactVqModel.actions_decoder_feedforward_dim=3200
+HactVqModel.plan_decoder_head_num = 8
+HactVqModel.plan_decoder_layer_num = 4 #10
+HactVqModel.plan_decoder_feedforward_dim = 3200
+HactVqModel.chunk_size = 50
+HactVqModel.hcode_num = 1024
+HactVqModel.zcode_num = 512
+HactVqModel.hcode_num = 511
+HactVqModel.zcode_num = 513
+HactVqModel.max_timestep = 500
+HactVqModel.timestep_bin_size = 2
+
+

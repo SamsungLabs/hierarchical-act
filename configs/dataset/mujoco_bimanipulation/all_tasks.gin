@@ -1,0 +1,7 @@
+ActInput.data_rel_dir = 'episodic_data/mujoco_bimanipulation'
+ActInput.task_list = ['insertion-v0-single', 'insertion-v0-normal', 'insertion-v0-uniform',
+                        'transfer_cube-v0-single', 'transfer_cube-v0-normal', 'transfer_cube-v0-uniform']
+ActInput.num_train_demo = 'all'
+ActInput.num_val_demo = 'all'
+ActInput.chunk_size = 100
+ActInput.sample_full_episode = False

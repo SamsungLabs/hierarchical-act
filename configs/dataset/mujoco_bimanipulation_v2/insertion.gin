@@ -1,0 +1,7 @@
+DomainActInput.data_rel_dir = 'domain_episodic_data/mujoco_bimanipulation_v2'
+DomainActInput.task_list = ['insertion-v0']
+DomainActInput.num_train_demo = 50 #'all'
+DomainActInput.num_val_demo = 10 #'all'
+DomainActInput.chunk_size = 100
+DomainActInput.sample_full_episode = False
+DomainActInput.image_keys = ['top']

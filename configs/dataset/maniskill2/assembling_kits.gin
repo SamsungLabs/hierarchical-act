@@ -1,0 +1,6 @@
+ActInput.data_rel_dir = 'episodic_data/maniskill2'
+ActInput.task_list = ['AssemblingKits-v0']
+ActInput.num_train_demo = 'all'
+ActInput.num_val_demo = 'all'
+ActInput.chunk_size = 100
+ActInput.sample_full_episode = False

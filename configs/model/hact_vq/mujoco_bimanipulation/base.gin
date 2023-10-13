@@ -1,0 +1,38 @@
+HactVqModel.cnn_backbone_type='resnet18'
+HactVqModel.state_dim=14
+HactVqModel.action_dim=14
+HactVqModel.context_dim=512
+HactVqModel.hidden_dim=512
+HactVqModel.input_image_num=1
+HactVqModel.image_encoder_head_num=8
+HactVqModel.image_encoder_layer_num=4
+HactVqModel.image_encoder_feedforward_dim=2048
+HactVqModel.subgoal_encoder_head_num=8
+HactVqModel.subgoal_encoder_layer_num=4
+HactVqModel.subgoal_encoder_feedforward_dim=2048
+HactVqModel.actions_encoder_head_num=8
+HactVqModel.actions_encoder_layer_num=4
+HactVqModel.actions_encoder_feedforward_dim=2048
+HactVqModel.style_encoder_head_num=8
+HactVqModel.style_encoder_layer_num=4
+HactVqModel.style_encoder_feedforward_dim=2048
+HactVqModel.actions_decoder_head_num=8
+HactVqModel.actions_decoder_layer_num=7
+HactVqModel.actions_decoder_feedforward_dim=3200
+HactVqModel.plan_decoder_head_num = 8
+HactVqModel.plan_decoder_layer_num = 4 #10
+HactVqModel.plan_decoder_feedforward_dim = 3200
+HactVqModel.chunk_size = 100
+HactVqModel.hcode_num = 1024
+HactVqModel.zcode_num = 512
+HactVqModel.hcode_num = 511
+HactVqModel.zcode_num = 513
+HactVqModel.max_timestep = 400
+HactVqModel.timestep_bin_size = 2
+
+MujocoBimanipulationHactVqAgent.max_timesteps = 500
+MujocoBimanipulationHactVqAgent.pred_is_pad_threshold = 0.5
+MujocoBimanipulationHactVqAgent.num_samples = 10
+MujocoBimanipulationHactVqAgent.temporal_agg_temp = 0.01
+
+

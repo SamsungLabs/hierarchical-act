@@ -1,0 +1,18 @@
+DomainActInput.data_rel_dir = 'domain_episodic_data/srrc_dual_frankas'
+DomainActInput.task_list = ['close_pocket', 'open_lid', 'stack_cups', 
+                            'pick_up_pocket', 'push_box_with_pocket', 'straw_insertion']
+DomainActInput.num_train_demo = 'all'
+DomainActInput.num_val_demo = 'all'
+DomainActInput.chunk_size = 50
+DomainActInput.sample_full_episode = False
+DomainActInput.image_keys = ['left_head', 'right_head']
+
+HactInput.data_rel_dir = 'domain_episodic_data/srrc_dual_frankas'
+HactInput.task_list = ['close_pocket', 'open_lid', 'stack_cups', 
+                            'pick_up_pocket', 'push_box_with_pocket', 'straw_insertion']
+HactInput.num_train_demo = 'all'
+HactInput.num_val_demo = 'all'
+HactInput.chunk_size = 50
+HactInput.sentence_embedding_dim = 512
+HactInput.use_success_data_only = True
+HactInput.image_keys = ['left_head', 'right_head']
