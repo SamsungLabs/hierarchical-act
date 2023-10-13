@@ -43,16 +43,15 @@ while not done:
     obs, reward, done, truncated, info = env.step(action)
 ```
 
-
-## Thanks to
-All members of our team: (in alphabetic order) Joonmo Ahn, Rakjoon Chung, Changsu Ha, Heungwoo Han, Sunpyo Hong, Jaesik Jang, Rijeong Kang, Hosang Lee, Dongwoo Park, Hoseong Seo, Jaemin Yoon
-
+## Todo
+- We will open the simulation (Viper-X) and datasets soon.
 
 
- 
+## Code information
+This code is implemented on the top of [ACT](https://github.com/tonyzhaozh/act).
+Several codes are adopted or modified from ACT.
 
 
-
-
-
+## Acknowledgement
+All members of our remarkable robotics team: Joonmo Ahn, Rakjoon Chung, Changsu Ha, Heungwoo Han, Sunpyo Hong, Jaesik Jang, Rijeong Kang, Hosang Lee, Dongwoo Park, Hoseong Seo, Jaemin Yoon (in alphabetic order)
 
