@@ -3,6 +3,20 @@
 
 **J. Hyeon Park**, **Wonhyuk Choi**, Sunpyo Hong, Hoseong Seo, Joonmo Ahn, Changsu Ha, Heungwoo Han, Junghyun Kwon, and Sungchul Kang "**Hierarchical Action Chunk Transformer: Learning Temporal Multimodality from Demonstrations with Fast Imitation Behavior**", IEEE International Conference on Robotics and Automation (ICRA), 2024 
 
+## Experiment video
+### Stack cups
+<img src="./resource/stack_cups.gif" width="640" height="360" />
+</br>
+
+### Close pocket
+<img src="./resource/close_pocket.gif" width="640" height="360" />
+</br>
+
+### Open lid
+<img src="./resource/open_lid.gif" width="640" height="360" />
+</br>
+
+
 ## List of maintainers
 - Jaehyeon Park (jh_raph.park@samsung.com)
 - Wonhyuk Choi (wh9.choi@samsung.com)
@@ -24,6 +38,7 @@ python ./train.py \
     --task_config ./configs/task/hact_vq/srrc_dual_frankas/base_local.gin \
     --gpu 0
 ```
+
 - ```model.pt``` will be created in ```exp_dir```.
 
 ## Create agent
